@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  display: block;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 title {
@@ -13,6 +14,18 @@ title {
 body {
   background-color: #ffffff;
   font-family: "Inter", sans-serif;
+  white-space: wrap;
+  word-break: break-word;
+}
+
+header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  background-color: #003d34;
+  padding: 24px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .fav_logo {
@@ -26,16 +39,6 @@ body {
   transform: scale(1.1);
 }
 
-header {
-  align-items: center;
-  width: 100%;
-  display: flex;
-  background-color: #003d34;
-  padding: 24px 80px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -46,7 +49,7 @@ nav {
   list-style: none;
   font-size: 24px;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 48px;
 }
 
 .nav_links a {
@@ -61,10 +64,10 @@ nav {
 }
 
 #imagem_bg {
-  height: 50%;
   width: 100%;
   object-fit: cover;
   line-height: 0;
+  display: block;
 }
 
 .caixa_texto {
@@ -79,9 +82,11 @@ nav {
   font-weight: 600;
 }
 
-.caixa_texto h3 {
-  font-size: 24px;
-  font-weight: 400;
+#Fav {
+  font-size: 32px;
+  color: #003d34;
+  transition-duration: 0.3s;
+  font-weight: 700;
 }
 
 .button {
@@ -108,7 +113,7 @@ nav {
 }
 
 .button_local {
-  margin: 48px auto;
+  margin: 32px auto;
   border: none;
   transition-duration: 0.3s;
   font-weight: 700;
@@ -128,11 +133,7 @@ nav {
   transition-duration: 0.3s;
 }
 
-#Fav {
-  color: #003d34;
-  transition-duration: 0.3s;
-  font-weight: 700;
-}
+
 
 #imagem_mck {
   width: 50%;
@@ -142,6 +143,7 @@ nav {
 .card {
   display: flex;
   background-color: #f8bbd0;
+  width: 100%;
 }
 
 .selos {
@@ -152,8 +154,8 @@ nav {
 }
 
 .card_texto {
-  width: 50%;
-  margin: 48px 80px 48px 48px;
+  padding: 32px;
+  text-align: center;
 }
 
 .card_texto h2 {
@@ -163,7 +165,6 @@ nav {
 }
 
 .card_texto p {
-  width: 75%;
   font-size: 32px;
   font-weight: 600;
 }
@@ -193,11 +194,29 @@ nav {
 }
 
 /*Responsivo para celular*/
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 512px) {
   header {
     display: block;
     padding: 24px 32px;
   }
+
+  .card_texto h2 {
+    font-size: 32px;
+  }
+
+  .card_texto {
+    width: 100%;
+  }
+
+  #imagem_mck {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card_texto p {
+    font-size: 24px;
+  }
+
   nav {
     display: block;
   }
@@ -206,14 +225,20 @@ nav {
     margin: 0 auto;
   }
   .nav_links {
+    margin-top: 32px;
     font-size: 24px;
     width: 100%;
     display: block;
   }
 
-  .nav_links a {
-    margin-bottom: 16px;
+  .nav_links li {
+    margin-bottom: 8px;
   }
+
+  .card {
+    display: block;
+  }
+
   .button {
     margin-top: 32px;
     font-size: 24px;
