@@ -92,16 +92,14 @@ nav {
 .button {
   border: none;
   transition-duration: 0.3s;
-  font-weight: 600;
   padding: 8px 16px;
   border-radius: 15px;
   background-color: #f8bbd0;
-  color: #003d34;
   display: flex;
-  list-style: none;
-  gap: 48px;
-  font-size: 24px;
   cursor: pointer;
+  color: #003d34;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .button:hover {
