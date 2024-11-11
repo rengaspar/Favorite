@@ -131,8 +131,6 @@ nav {
   transition-duration: 0.3s;
 }
 
-
-
 #imagem_mck {
   width: 50%;
   object-fit: cover;
@@ -192,7 +190,7 @@ nav {
 }
 
 /*Responsivo para celular*/
-@media only screen and (max-width: 512px) {
+@media only screen and (max-width: 480px) {
   header {
     display: block;
     padding: 24px 32px;
