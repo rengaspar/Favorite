@@ -28,15 +28,8 @@ header {
   flex-wrap: wrap;
 }
 
-.fav_logo {
-  transition-duration: 0.3s;
+.favLogo {
   height: 40px;
-}
-
-.fav_logo:hover {
-  transition-duration: 0.3s;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 nav {
@@ -44,7 +37,7 @@ nav {
   justify-content: space-around;
 }
 
-.nav_links {
+.navLinks {
   display: flex;
   list-style: none;
   font-size: 24px;
@@ -52,12 +45,12 @@ nav {
   gap: 48px;
 }
 
-.nav_links a {
+.navLinks a {
   color: #faf0e6;
   transition-duration: 0.3s;
 }
 
-.nav_links a:hover {
+.navLinks a:hover {
   transition-duration: 0.3s;
   color: #f8bbd0;
   text-decoration: underline;
@@ -70,13 +63,13 @@ nav {
   display: block;
 }
 
-.caixa_texto {
+.caixaTexto {
   background-color: #faf0e6;
-  padding: 64px 80px;
+  padding: 24px 80px;
   text-align: center;
 }
 
-.caixa_texto h2 {
+.caixaTexto h2 {
   margin: 8px;
   font-size: 32px;
   font-weight: 600;
@@ -89,7 +82,7 @@ nav {
   font-weight: 700;
 }
 
-.button {
+.botao {
   border: none;
   transition-duration: 0.3s;
   padding: 8px 16px;
@@ -102,15 +95,14 @@ nav {
   font-weight: 600;
 }
 
-.button:hover {
+.botao:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  box-shadow: #ffcfe0 0px 0px 3px;
-  background-color: #ffcfe0;
+  background-color: #e3acbf;
   transition-duration: 0.3s;
 }
 
-.button_local {
+.botaoLocal {
   margin: 32px auto;
   border: none;
   transition-duration: 0.3s;
@@ -120,15 +112,19 @@ nav {
   background-color: #003d34;
   color: #faf0e6;
   display: flex;
-  list-style: none;
-  gap: 32px;
   font-size: 24px;
+  gap: 16px;
 }
 
-.button_local:hover {
+.botaoLocal:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   transition-duration: 0.3s;
+}
+
+#procurar{
+  height: 24px;
+  color: #faf0e6;
 }
 
 #imagem_mck {
@@ -149,33 +145,33 @@ nav {
   flex-wrap: wrap;
 }
 
-.card_texto {
-  padding: 32px;
-  text-align: center;
+.selos img {
+  height: 100px;
 }
 
-.card_texto h2 {
+.cardTexto {
+  padding: 32px;
+}
+
+.cardTexto h2 {
   color: #003d34;
   font-size: 48px;
   font-weight: 800;
 }
 
-.card_texto p {
+.cardTexto p {
   font-size: 32px;
   font-weight: 600;
 }
 
 .rodape {
   background-color: #003d34;
-  height: 360px;
-  width: 100%;
   text-align: center;
-  padding: 64px 80px 64px 128px;
+  padding: 24px
 }
 
 .rodape img {
-  margin: 0 auto;
-  width: 347px;
+  height: 48px;
 }
 
 .rodape h3 {
@@ -185,9 +181,6 @@ nav {
   color: #ffffff;
 }
 
-.rodape hr {
-  margin: 32px;
-}
 
 /*Responsivo para celular*/
 @media only screen and (max-width: 480px) {
@@ -196,11 +189,15 @@ nav {
     padding: 24px 32px;
   }
 
-  .card_texto h2 {
+  nav {
+    display: block;
+  }
+
+  .cardTexto h2 {
     font-size: 32px;
   }
 
-  .card_texto {
+  .cardTexto {
     width: 100%;
   }
 
@@ -209,25 +206,23 @@ nav {
     object-fit: cover;
   }
 
-  .card_texto p {
+  .cardTexto p {
     font-size: 24px;
   }
 
-  nav {
-    display: block;
-  }
-  .fav_logo {
+  .favLogo {
     height: 32px;
     margin: 0 auto;
   }
-  .nav_links {
+
+  .navLinks {
     margin-top: 32px;
     font-size: 24px;
     width: 100%;
     display: block;
   }
 
-  .nav_links li {
+  .navLinks li {
     margin-bottom: 8px;
   }
 
@@ -235,8 +230,9 @@ nav {
     display: block;
   }
 
-  .button {
+  .botao {
     margin-top: 32px;
     font-size: 24px;
   }
 }
+
