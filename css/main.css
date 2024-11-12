@@ -18,6 +18,7 @@ body {
   word-break: break-word;
 }
 
+/*Header*/
 header {
   align-items: center;
   width: 100%;
@@ -55,6 +56,7 @@ nav {
   color: #f8bbd0;
   text-decoration: underline;
 }
+
 
 #imagem_bg {
   width: 100%;
@@ -127,7 +129,7 @@ nav {
   color: #faf0e6;
 }
 
-#imagem_mck {
+.imagemCard {
   width: 50%;
   object-fit: cover;
 }
@@ -140,12 +142,12 @@ nav {
 
 .selos {
   display: flex;
-  justify-content: space-between;
-  gap: auto;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .selos img {
+  filter: saturate(50%);
   height: 100px;
 }
 
@@ -166,12 +168,11 @@ nav {
 
 .rodape {
   background-color: #003d34;
-  text-align: center;
-  padding: 24px
+  padding: 48px 80px;
 }
 
 .rodape img {
-  height: 48px;
+  height: 32px;
 }
 
 .rodape h3 {
@@ -179,6 +180,12 @@ nav {
   font-weight: 400;
   font-size: 24px;
   color: #ffffff;
+}
+
+/*Google Icons*/
+.material-symbols-outlined{
+  font-size: auto;
+  align-self: center;
 }
 
 
