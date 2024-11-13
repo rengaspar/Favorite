@@ -18,7 +18,6 @@ body {
   word-break: break-word;
 }
 
-/*Header*/
 header {
   align-items: center;
   width: 100%;
@@ -57,7 +56,6 @@ nav {
   text-decoration: underline;
 }
 
-
 #imagem_bg {
   width: 100%;
   object-fit: cover;
@@ -67,14 +65,15 @@ nav {
 
 .caixaTexto {
   background-color: #faf0e6;
-  padding: 24px 80px;
+  padding: 40px 80px;
   text-align: center;
 }
 
 .caixaTexto h2 {
   margin: 8px;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 #Fav {
@@ -129,15 +128,37 @@ nav {
   color: #faf0e6;
 }
 
-.imagemCard {
-  width: 50%;
-  object-fit: cover;
-}
-
 .card {
   display: flex;
   background-color: #f8bbd0;
-  width: 100%;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+}
+
+.imagemCard {
+  width: 25%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.cardTexto {
+  width: 50%;
+  border-radius: 25px;
+  padding: 48px;
+  background-color: #faf0e6;
+}
+
+.cardTexto h2 {
+  color: #003d34;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.cardTexto p {
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .selos {
@@ -148,22 +169,7 @@ nav {
 
 .selos img {
   filter: saturate(50%);
-  height: 100px;
-}
-
-.cardTexto {
-  padding: 32px;
-}
-
-.cardTexto h2 {
-  color: #003d34;
-  font-size: 48px;
-  font-weight: 800;
-}
-
-.cardTexto p {
-  font-size: 32px;
-  font-weight: 600;
+  height: 96px;
 }
 
 .rodape {
@@ -189,8 +195,8 @@ nav {
 }
 
 
-/*Responsivo para celular*/
-@media only screen and (max-width: 480px) {
+/*Responsivo para celular, tablet*/
+@media only screen and (max-width: 1238px) {
   header {
     display: block;
     padding: 24px 32px;
@@ -198,6 +204,16 @@ nav {
 
   nav {
     display: block;
+  }
+
+  .card{
+    padding: 32px;
+  }
+
+  .imagemCard {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 24px;
   }
 
   .cardTexto h2 {
