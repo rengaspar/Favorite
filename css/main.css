@@ -188,15 +188,32 @@ nav {
   color: #ffffff;
 }
 
-/*Google Icons*/
+.redeSocial{
+  text-align: left;
+}
+
+.redes{
+  display: flex;
+  gap: 24px;
+}
+
+/*Icons*/
+i{
+  color: #dcdcdc;
+  cursor: pointer;
+}
+
 .material-symbols-outlined{
   font-size: auto;
   align-self: center;
 }
 
+.fi-brands-facebook{
+}
+
 
 /*Responsivo para celular, tablet*/
-@media only screen and (max-width: 1238px) {
+@media only screen and (max-width: 900px) {
   header {
     display: block;
     padding: 24px 32px;
