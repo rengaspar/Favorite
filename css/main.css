@@ -174,25 +174,17 @@ nav {
 
 .rodape {
   background-color: #003d34;
-  justify-content: center;
-}
-
-.rodape img {
-  height: 32px;
-}
-
-.rodape h3 {
-  margin: 8px;
-  font-weight: 400;
-  font-size: 24px;
-  color: #ffffff;
 }
 
 .redeSocial {
+  text-align: center;
   padding: 16px 0px;
-  display: flex;
-  justify-content: center;
   gap: 24px;
+}
+
+.redeSocial h3 {
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .infos {
@@ -200,21 +192,32 @@ nav {
   background-color: #002620;
   width: 100%;
   padding: 16px 0px;
+  color: #faf0e6;
 }
 
-.infos h3{
+.infos h3 {
   font-size: 16px;
 }
 
-/*Icons*/
-i {
-  color: #dcdcdc;
-  cursor: pointer;
+.infos h4 {
+  font-size: 16px;
 }
 
-.material-symbols-outlined {
-  font-size: auto;
-  align-self: center;
+.infos img {
+  margin-bottom: 24px;
+}
+
+.iconRede {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+i {
+  font-size: 32px;
+  color: #dcdcdc;
+  cursor: pointer;
 }
 
 /*Responsivo para celular, tablet*/
