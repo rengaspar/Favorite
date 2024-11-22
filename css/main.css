@@ -123,7 +123,7 @@ nav {
   transition-duration: 0.3s;
 }
 
-#procurar{
+#procurar {
   height: 24px;
   color: #faf0e6;
 }
@@ -174,7 +174,7 @@ nav {
 
 .rodape {
   background-color: #003d34;
-  padding: 48px 80px;
+  justify-content: center;
 }
 
 .rodape img {
@@ -188,29 +188,34 @@ nav {
   color: #ffffff;
 }
 
-.redeSocial{
-  text-align: left;
-}
-
-.redes{
+.redeSocial {
+  padding: 16px 0px;
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
+.infos {
+  text-align: center;
+  background-color: #002620;
+  width: 100%;
+  padding: 16px 0px;
+}
+
+.infos h3{
+  font-size: 16px;
+}
+
 /*Icons*/
-i{
+i {
   color: #dcdcdc;
   cursor: pointer;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
   font-size: auto;
   align-self: center;
 }
-
-.fi-brands-facebook{
-}
-
 
 /*Responsivo para celular, tablet*/
 @media only screen and (max-width: 900px) {
@@ -223,7 +228,7 @@ i{
     display: block;
   }
 
-  .card{
+  .card {
     padding: 32px;
   }
 
@@ -275,4 +280,3 @@ i{
     font-size: 24px;
   }
 }
-
