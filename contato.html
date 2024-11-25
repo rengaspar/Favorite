@@ -10,29 +10,24 @@
     <link rel="stylesheet" href="css/contato.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contato</title>
+    <title>Favorite - Contato</title>
   </head>
 
   <body>
     <header>
-      <a href="http://localhost:3000/main-page/"
-        ><img
-          class="fav_logo"
-          src="https://svgshare.com/i/1Brb.svg"
-          width="176"
-          height="48"
-          alt="Favorite_Logo"
-      /></a>
+      <a href="index.html">
+          <img class="favLogo" src="images/Favorite.svg" alt="Favorite Logo" />
+      </a>
       <nav>
-        <ul class="nav_links">
-          <li><a href="#">Cardápio</a></li>
-          <li><a href="#">Delivery</a></li>
-          <li><a href="#">Produtos</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-        </ul>
+          <ul class="navLinks">
+              <li><a href="menu.html">Cardápio</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li><a href="sobre.html">Sobre Nós</a></li>
+          </ul>
       </nav>
-      <a class="button" href="http://localhost:3000/contact-page/">Contato</a>
-    </header>
+      <button class="botao" onclick="window.location.href='contato.html'">Contato</button>
+  </header>
 
     <main>
       <h1>Fale Conosco</h1>
@@ -83,7 +78,7 @@
     <footer class="rodape">
       <img src="assets/Favorite.svg" alt="fav_logo" />
       <h3>Café com qualidade para todos os dias</h3>
-      <hr />
+      <hr/>
       <h3>© Todos os direitos reservados a Favorite 2024</h3>
     </footer>
   </body>

@@ -56,33 +56,6 @@ nav {
   text-decoration: underline;
 }
 
-#imagem_bg {
-  width: 100%;
-  object-fit: cover;
-  line-height: 0;
-  display: block;
-}
-
-.caixaTexto {
-  background-color: #faf0e6;
-  padding: 40px 80px;
-  text-align: center;
-}
-
-.caixaTexto h2 {
-  margin: 8px;
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-#Fav {
-  font-size: 32px;
-  color: #003d34;
-  transition-duration: 0.3s;
-  font-weight: 700;
-}
-
 .botao {
   border: none;
   transition-duration: 0.3s;
@@ -103,6 +76,32 @@ nav {
   transition-duration: 0.3s;
 }
 
+#imagem_bg {
+  width: 100%;
+  object-fit: cover;
+  line-height: 0;
+  display: block;
+}
+
+.caixaTexto {
+  background-color: #faf0e6;
+  padding: 40px 80px;
+  text-align: center;
+}
+
+.caixaTexto h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+#Fav {
+  font-size: 32px;
+  color: #003d34;
+  transition-duration: 0.3s;
+  font-weight: 700;
+}
+
 .botaoLocal {
   margin: 32px auto;
   border: none;
@@ -115,6 +114,7 @@ nav {
   display: flex;
   font-size: 24px;
   gap: 16px;
+  cursor: pointer;
 }
 
 .botaoLocal:hover {
@@ -261,6 +261,10 @@ i {
   .favLogo {
     height: 32px;
     margin: 0 auto;
+  }
+
+  .caixaTexto h2 {
+    font-size: 24px;
   }
 
   .navLinks {
