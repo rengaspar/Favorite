@@ -6,6 +6,64 @@
   font-family: "Inter", sans-serif;
 }
 
+header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  background-color: #003d34;
+  padding: 24px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.favLogo {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.navLinks a {
+  color: #faf0e6;
+  transition-duration: 0.3s;
+}
+
+.navLinks a:hover {
+  transition-duration: 0.3s;
+  color: #f8bbd0;
+  text-decoration: underline;
+}
+
+.botao {
+  border: none;
+  transition-duration: 0.3s;
+  padding: 8px 16px;
+  border-radius: 15px;
+  background-color: #f8bbd0;
+  display: flex;
+  cursor: pointer;
+  color: #003d34;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.botao:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #e3acbf;
+  transition-duration: 0.3s;
+}
+
 .card2 {
   display: flex;
   justify-content: center;
@@ -83,4 +141,52 @@
 
 .card4 h2 {
   color: #003d34;
+}
+
+.rodape {
+  background-color: #003d34;
+}
+
+.redeSocial {
+  text-align: center;
+  padding: 16px 0px;
+  gap: 24px;
+}
+
+.redeSocial h3 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.infos {
+  text-align: center;
+  background-color: #002620;
+  width: 100%;
+  padding: 16px 0px;
+  color: #faf0e6;
+}
+
+.infos h3 {
+  font-size: 16px;
+}
+
+.infos h4 {
+  font-size: 16px;
+}
+
+.infos img {
+  margin-bottom: 24px;
+}
+
+.iconRede {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+i {
+  font-size: 32px;
+  color: #dcdcdc;
+  cursor: pointer;
 }
