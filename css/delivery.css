@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter";
+  background-color: #003d34;
+}
+
+header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  background-color: #003d34;
+  padding: 24px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.favLogo {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.navLinks a {
+  color: #faf0e6;
+  transition-duration: 0.3s;
+}
+
+.navLinks a:hover {
+  transition-duration: 0.3s;
+  color: #f8bbd0;
+  text-decoration: underline;
+}
+
+.botao {
+  border: none;
+  transition-duration: 0.3s;
+  padding: 8px 16px;
+  border-radius: 15px;
+  background-color: #f8bbd0;
+  display: flex;
+  cursor: pointer;
+  color: #003d34;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.botao:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #e3acbf;
+  transition-duration: 0.3s;
+}
+
+.delivry {
+  background-color: #003d34;
+  padding: 24px;
+  width: 100%;
+}
+.itens-delivry {
+  display: flex;
+  color: #faf0e6;
+  list-style: none;
+  justify-content: center;
+  gap: 56px;
+  align-items: center;
+}
+.itens-delivry a {
+  text-decoration: none;
+  color: #faf0e6;
+  font-size: 24px;
+}
+.caixa-delivry {
+  display: flex;
+  gap: 40px;
+}
+.logo {
+  background-color: #003d34;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.delivry {
+  width: 100%;
+}
+.texto {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding: 60px;
+  width: 100%;
+  background-color: #fefefe;
+}
+.caixa1 {
+  border-style: solid;
+  border-color: hotpink;
+  width: 200px;
+  gap: 40px;
+  padding: 30px;
+  text-align: center;
+  margin-left: 10px;
+  color: aliceblue;
+}
+.caixa2 {
+  border-style: solid;
+  border-color: hotpink;
+  width: 200px;
+  gap: 40px;
+  padding: 30px;
+  text-align: center;
+  margin-left: 10px;
+  color: aliceblue;
+}
+.caixa3 {
+  border-style: solid;
+  border-color: hotpink;
+  width: 200px;
+  gap: 40px;
+  padding: 30px;
+  text-align: center;
+  margin-left: 10px;
+  color: aliceblue;
+}
+.contener {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #003d34;
+  padding: 40px;
+}
+.rodape {
+  background-color: #003d34;
+  height: 360px;
+  width: 100%;
+  text-align: center;
+  padding: 64px 80px 64px 128px;
+}
+
+.rodape img {
+  margin: 0;
+  width: 256px;
+}
+
+.rodape h3 {
+  margin: 8px;
+
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h1 {
+  background-color: #fefefe;
+}
