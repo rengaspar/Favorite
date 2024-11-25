@@ -209,25 +209,48 @@ nav {
 
 .rodape {
   background-color: #003d34;
-  height: 360px;
-  width: 100%;
+}
+
+.redeSocial {
   text-align: center;
-  padding: 64px 80px 64px 128px;
-  margin: 120px 0 0 0;
+  padding: 16px 0px;
+  gap: 24px;
 }
 
-.rodape img {
-  margin: 0 auto;
-  width: 256px;
-}
-
-.rodape h3 {
-  margin: 8px;
-  font-weight: 400;
+.redeSocial h3 {
   font-size: 24px;
   color: #ffffff;
 }
 
-.rodape hr {
-  margin: 32px;
+.infos {
+  text-align: center;
+  background-color: #002620;
+  width: 100%;
+  padding: 16px 0px;
+  color: #faf0e6;
+}
+
+.infos h3 {
+  font-size: 16px;
+}
+
+.infos h4 {
+  font-size: 16px;
+}
+
+.infos img {
+  margin-bottom: 24px;
+}
+
+.iconRede {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+i {
+  font-size: 32px;
+  color: #dcdcdc;
+  cursor: pointer;
 }
