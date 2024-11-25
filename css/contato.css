@@ -102,7 +102,6 @@ form {
   margin: 50% 0;
 }
 
-
 .botao {
   display: flex;
   background-color: #f8bbd0;
@@ -115,7 +114,6 @@ form {
   color: #003d34;
   cursor: pointer;
 }
-
 
 ::-webkit-input-placeholder {
   color: #faf0e666;

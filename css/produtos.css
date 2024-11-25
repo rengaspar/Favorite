@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  background-color: #f8bbd0;
+  padding: 28px;
+}
+
+.card2 h1 {
+  color: #003d34;
+}
+
+.cardapio {
+  background-color: #003d34;
+  padding: 24px;
+}
+
+.itens-cardapio {
+  display: flex;
+  color: #faf0e6;
+  list-style: none;
+  justify-content: center;
+  gap: 56px;
+}
+
+.itens-cardapio a {
+  text-decoration: none;
+  color: #faf0e6;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  background-color: #003d34;
+  padding: 40px;
+  justify-content: center;
+}
+
+.card1 {
+  background-color: #faf0e6;
+  padding: 0px;
+  margin: 16px;
+  text-align: center;
+  height: 100%;
+  padding-bottom: 24px;
+  border-radius: 2%;
+}
+
+.like {
+  width: 16px;
+}
+
+.fotoProduto1 {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.img {
+  width: 100%;
+}
+.card3 {
+  background-color: #003d34;
+}
+.card4 {
+  display: flex;
+  justify-content: center;
+  background-color: #f8bbd0;
+  padding: 16px;
+  border-radius: 4px;
+}
+.card5 {
+  padding: 50px;
+  background-color: #003d34;
+}
+
+.card4 h2 {
+  color: #003d34;
+}

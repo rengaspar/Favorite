@@ -1,37 +1,176 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Inter';
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
 
-  .cardapio {
-    background-color: #003D34;
-    padding:24px ;
-  }
+header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  background-color: #003d34;
+  padding: 24px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-  .itens-cardapio{
-    display: flex;
-    color: #FAF0E6;
-    list-style: none;
-    justify-content: center;
-    gap: 56px;
-  }
+.favLogo {
+  height: 40px;
+}
 
-  .itens-cardapio a{
-    text-decoration: none;
-    color: #FAF0E6;
-    font-size:24px;
-  }
- .cards {
-    display: flex;
-    background-color: #003D34;
-    padding:40px ;
-    justify-content: center;
-  } 
-  .cards1{ 
-    color:#FAF0E6 ;
-    padding: 40px;
+nav {
+  display: flex;
+  justify-content: space-around;
+}
 
-  }
+.navLinks {
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.navLinks a {
+  color: #faf0e6;
+  transition-duration: 0.3s;
+}
+
+.navLinks a:hover {
+  transition-duration: 0.3s;
+  color: #f8bbd0;
+  text-decoration: underline;
+}
+
+.botao {
+  border: none;
+  transition-duration: 0.3s;
+  padding: 8px 16px;
+  border-radius: 15px;
+  background-color: #f8bbd0;
+  display: flex;
+  cursor: pointer;
+  color: #003d34;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.botao:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #e3acbf;
+  transition-duration: 0.3s;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  background-color: #f8bbd0;
+  padding: 28px;
+}
+
+.card2 h1 {
+  color: #003d34;
+}
+
+.cardapio {
+  background-color: #003d34;
+  padding: 24px;
+}
+
+.itens-cardapio {
+  display: flex;
+  color: #faf0e6;
+  list-style: none;
+  justify-content: center;
+  gap: 56px;
+}
+
+.itens-cardapio a {
+  text-decoration: none;
+  color: #faf0e6;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  background-color: #003d34;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card1 {
+  background-color: #faf0e6;
+  padding: 0px;
+  margin: 16px;
+  text-align: center;
+  height: 100%;
+  padding-bottom: 28px;
+  border-radius: 2%;
+}
+
+.like {
+  width: 16px;
+}
+
+.fotoProduto {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.img {
+  width: 100%;
+}
+.card3 {
+  background-color: #003d34;
+}
+
+.rodape {
+  background-color: #003d34;
+}
+
+.redeSocial {
+  text-align: center;
+  padding: 16px 0px;
+  gap: 24px;
+}
+
+.redeSocial h3 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.infos {
+  text-align: center;
+  background-color: #002620;
+  width: 100%;
+  padding: 16px 0px;
+  color: #faf0e6;
+}
+
+.infos h3 {
+  font-size: 16px;
+}
+
+.infos h4 {
+  font-size: 16px;
+}
+
+.infos img {
+  margin-bottom: 24px;
+}
+
+.iconRede {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+i {
+  font-size: 32px;
+  color: #dcdcdc;
+  cursor: pointer;
+}
