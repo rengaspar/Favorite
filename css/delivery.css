@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Inter";
-  background-color: #003d34;
 }
 
 header {
@@ -142,26 +141,55 @@ nav {
   background-color: #003d34;
   padding: 40px;
 }
+
+h1 {
+  background-color: #fefefe;
+}
+
 .rodape {
   background-color: #003d34;
-  height: 360px;
-  width: 100%;
+}
+
+.redeSocial {
   text-align: center;
-  padding: 64px 80px 64px 128px;
+  padding: 16px 0px;
+  gap: 24px;
 }
 
-.rodape img {
-  margin: 0;
-  width: 256px;
-}
-
-.rodape h3 {
-  margin: 8px;
-
+.redeSocial h3 {
   font-size: 24px;
   color: #ffffff;
 }
 
-h1 {
-  background-color: #fefefe;
+.infos {
+  text-align: center;
+  background-color: #002620;
+  width: 100%;
+  padding: 16px 0px;
+  color: #faf0e6;
+}
+
+.infos h3 {
+  font-size: 16px;
+}
+
+.infos h4 {
+  font-size: 16px;
+}
+
+.infos img {
+  margin-bottom: 24px;
+}
+
+.iconRede {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+i {
+  font-size: 32px;
+  color: #dcdcdc;
+  cursor: pointer;
 }
